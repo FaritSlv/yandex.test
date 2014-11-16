@@ -8,3 +8,4 @@ yandex.test
 - работа с изображение FileAPI
 - основа css Bootstrap
 - jQuery
+- иконки Font Awesome
