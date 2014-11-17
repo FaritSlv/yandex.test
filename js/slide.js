@@ -180,7 +180,7 @@
             });
             _firstItem.parent().addClass('init-slider');
             if(_ulTumb.find('li').length > 4) {
-            	loadImage(_li.find('img'), function(){
+            	loadImage(_ulTumb.find('img'), function(){
             		_ulTumb.tumbSlider();
             	});
             }
