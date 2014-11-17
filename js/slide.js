@@ -184,7 +184,7 @@
             		_ulTumb.tumbSlider();
             	});
             }
-            $('.thumbnails li.active', _this).click();
+            setTimeOut($('.thumbnails li.active', _this).click(), 100);
         };
         /**
          * @description - переключить слайд
