@@ -182,9 +182,9 @@
             if(_ulTumb.find('li').length > 4) {
             	loadImage(_ulTumb.find('img'), function(){
             		_ulTumb.tumbSlider();
-            		$('.thumbnails li.active', _this).click();
             	});
             }
+            $('.thumbnails li.active', _this).click();
         };
         /**
          * @description - переключить слайд
