@@ -139,7 +139,7 @@
                            _li.append($('<img />').attr('src', url));
                         });
                         _ulTumb.append(_li.data('index', index));
-                        _item.dequeue()
+                        _item.dequeue();
                     });
             });
             /**
@@ -180,7 +180,9 @@
             });
             _firstItem.parent().addClass('init-slider');
             if(_ulTumb.find('li').length > 4) {
-                _ulTumb.tumbSlider();
+            	loadImage(_li.find('img'), function(){
+            		_ulTumb.tumbSlider();
+            	});
             }
             $('.thumbnails li.active', _this).click();
         };
